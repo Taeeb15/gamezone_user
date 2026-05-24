@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react"
 import { Link } from "react-router-dom"
 import { getGames, getFeedbacks } from "../services/api"
 
-const BACKEND = "https://gamezone-backend-ve6d.onrender.com/"
+const BACKEND = "https://gamezone-backend-ve6d.onrender.com"
 
 export default function Home() {
   const [games, setGames] = useState([])

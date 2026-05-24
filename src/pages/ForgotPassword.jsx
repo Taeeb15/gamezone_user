@@ -2,7 +2,7 @@ import React, { useState } from "react"
 import { Link, useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 import axios from "axios"
-const BASE = "https://gamezone-backend-ve6d.onrender.com/"
+const BASE = "https://gamezone-backend-ve6d.onrender.com"
 const inp = { width: "100%", padding: "13px 16px", background: "rgba(255,255,255,.04)", border: "1px solid rgba(255,255,255,.12)", borderRadius: 8, color: "#fff", fontSize: 14, outline: "none" }
 export default function ForgotPassword() {
   const [step, setStep] = useState(1)

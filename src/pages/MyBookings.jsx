@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { toast } from "react-toastify"
 import { myBookings, cancelBooking, genOrderId, verifyPayment, addFeedback } from "../services/api"
 
-const BACKEND = "https://gamezone-backend-ve6d.onrender.com/"
+const BACKEND = "https://gamezone-backend-ve6d.onrender.com"
 const RAZORPAY_KEY = "rzp_test_VQhEfe2NCXbbwI"
 
 export default function MyBookings() {

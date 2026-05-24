@@ -1,5 +1,5 @@
 import axios from "axios"
-const BASE = "https://gamezone-backend-ve6d.onrender.com/"
+const BASE = "https://gamezone-backend-ve6d.onrender.com"
 export const getToken = () => localStorage.getItem("gz_user_token")
 export const setToken = (t) => localStorage.setItem("gz_user_token", t)
 export const removeToken = () => localStorage.removeItem("gz_user_token")

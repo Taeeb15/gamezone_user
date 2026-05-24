@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 import { toast } from "react-toastify"
 import { getProfile, updateProfile, changePassword } from "../services/api"
 
-const BACKEND = "https://gamezone-backend-ve6d.onrender.com/"
+const BACKEND = "https://gamezone-backend-ve6d.onrender.com"
 
 export default function Profile({ userData, setUserData }) {
   const [profile, setProfile] = useState(null)

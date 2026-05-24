@@ -3,7 +3,7 @@ import { useParams, Link, useNavigate } from "react-router-dom"
 import { toast } from "react-toastify"
 import { getGameDetails, getSlots, getSeats, bookSeat, genOrderId, verifyPayment } from "../services/api"
 
-const BACKEND = "https://gamezone-backend-ve6d.onrender.com/"
+const BACKEND = "https://gamezone-backend-ve6d.onrender.com"
 const RAZORPAY_KEY = "rzp_test_VQhEfe2NCXbbwI" // replace with your key
 
 export default function GameDetail({ isAuthenticated }) {
